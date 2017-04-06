@@ -1,35 +1,31 @@
-<form align: center>
-  Nama:<br>
-  <input type="text" name="firstname">
-  <br>
-  Nama Panggilan:<br>
-  <input type="text" name="lastname">
-  <br>
-  Jenis Kelamin:<br>
-  <input type="text" name="lastname">
-  <br>
-  Tempat/Tanggal Lahir:<br>
-  <input type="text" name="lastname">
-  <br>
-  Golongan Darah:<br>
-  <input type="text" name="lastname">
-  <br>
-  Agama:<br>
-  <input type="text" name="lastname">
-  <br>
-  Alamat Asal:<br>
-  <input type="text" name="lastname">
-  <br>
-  Alamat Sekarang:<br>
-  <input type="text" name="lastname">
-  <br>
-  No. Telepon/HP:<br>
-  <input type="text" name="lastname">
-  <br>
-  Jumlah Saudara Kandung/Tiri:<br>
-  <input type="text" name="lastname">
-  <br>
-  Bahasa Sehari-hari:<br>
-  <input type="text" name="lastname">
-  <br>
-</form>
+<form action="" method="post">
+	<h2><i class="fa fa-user"></i>Form Pendaftaran Siswa Baru SMK Wahid Hasyim Trenggalek</h2>
+	<br/>
+	<div class="form-group">
+		<input type="text" class="input-mode" placeholder="Nama Lengkap...">
+	</div>
+	<div class="form-group">
+	<input type="text" class="input-mode" placeholder="Tempat Lahir...">
+	</div>
+	<div class="form-group">
+	<input type="date" class="input-mode" placeholder="Tanggal Lahir...">
+	</div>
+	<div class="form-group">
+	<input type="text" class="input-mode" placeholder="Alamat Asal...">
+	</div>
+	<div class="form-group">
+	<input type="text" class="input-mode" placeholder="Agama...">
+	
+	</div>
+	<br/>
+	<div class="form-group form-cek">
+		<input type="radio" name="cek" value="pria" id="cek-pria" class="cek"><label for="cek-pria">Pria</label>
+		<input type="radio" name="cek" value="wanita" id="cek-wanita" class="cek"><label for="cek-wanita">Wanita</label>
+	</div>
+	<br/>
+	<div class="form-group">
+		<button class="btn btn-submit">Daftar &nbsp; <i class="fa fa-hand-o-right" aria-hidden="true"></i></button>
+	</div>
+	<br/>
+
+	</form>
