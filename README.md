@@ -1,4 +1,3 @@
-# indanaluthfi.github.io
 <form align: center>
   Nama:<br>
   <input type="text" name="firstname">
